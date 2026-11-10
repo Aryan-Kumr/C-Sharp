@@ -12,9 +12,14 @@ class Lists
             listNumbers.Add(i + 1);
         }
         
-        foreach(var num in listNumbers)
+        // foreach(var num in listNumbers)
+        // {
+        //     Console.Write($"{num} ");
+        // }
+        
+        for(int i = 0; i < listNumbers.Count; i++)
         {
-            Console.Write($"{num} ");
+            Console.Write($"{listNumbers[i]} ");
         }
     }
 }
